@@ -1,0 +1,75 @@
+{
+    "nav-accueil": "Home",
+    "nav-about": "About",
+    "nav-skills": "Skills",
+    "nav-portfolio": "Portfolio",
+    "nav-contact": "Contact",
+    "hero-title": "Hi ! I'm Emilie",
+    "hero-desc": "Junior Software Tester",
+    "about-title": "About me",
+    "about-p1": "In career transition to web development, I am specializing in software testing through an apprenticeship. I master end-to-end test automation, API testing, test case management, and web development.",
+    "about-p2": "I have participated in varied projects: eco-friendly sites, event platforms, and financial applications, leading QA campaigns and test strategy.",
+    "about-p3": "I work on debugging, optimization, and accessibility, ensuring the quality and performance of web deliverables.",
+    "about-p4": "I have also contributed to implementing AI in my company's SaaS, combining innovation and software quality.",
+    "skills-title": "My Skills",
+    "portfolio-title": "My Projects",
+    "portfolio-link": "View project",
+    "contact-title": "Contact Me",
+    "contact-github": "GitHub",
+    "contact-github-desc": "My GitHub Profile",
+    "contact-email": "Email Address",
+    "contact-linkedin": "LinkedIn",
+    "contact-linkedin-desc": "LinkedIn Name",
+    "portfolio": {
+        "Eco bliss bath": {
+            "title": "Eco bliss bath",
+            "text": "Functional test automation for an eco-friendly e-commerce website. Analysis of existing manual tests and creation of scripts with Cypress (JavaScript). QA reporting and quality monitoring as part of an external training program."
+        },
+        "724 events": {
+            "title": "724 events",
+            "text": "Functional and exploratory test campaign on an event platform. Docker environment, bug tracking on JIRA and QA reporting."
+        },
+        "Payforge": {
+            "title": "Payforge",
+            "text": "QA leadership and test strategy definition for an Agile financial application. Requirements coverage, sprint testing and regression campaigns on critical features."
+        }
+    },
+    "skills": {
+        "Tests end-to-end": {
+            "title": "End-to-end Testing",
+            "text": "Automate end-to-end tests to validate user journeys on web applications."
+        },
+        "Postman": {
+            "title": "Postman",
+            "text": "Test REST APIs through requests, verification scripts and automated collections."
+        },
+        "Xray": {
+            "title": "Xray",
+            "text": "Manage test cases in Jira: design, execution, campaign tracking and requirements coverage."
+        },
+        "HTML - CSS": {
+            "title": "HTML - CSS",
+            "text": "Integrate responsive web interfaces from mockups, with CSS animations and accessibility."
+        },
+        "JavaScript": {
+            "title": "JavaScript",
+            "text": "Create dynamic interactions and manipulate the DOM in modern web applications."
+        },
+        "React": {
+            "title": "React",
+            "text": "Develop reusable components and manage their state in reactive interfaces."
+        },
+        "Gestion de projet QA": {
+            "title": "QA Project Management",
+            "text": "Organize test phases, plan sprints, and collaborate with product and dev teams."
+        },
+        "Debug & Optimisation": {
+            "title": "Debug & Optimization",
+            "text": "Identify bugs, optimize SEO, improve performance and publish web deliverables."
+        },
+        "Stratégies de test": {
+            "title": "Test Strategies",
+            "text": "Design and execute functional, exploratory, API, unit, and regression tests."
+        }
+    }
+}

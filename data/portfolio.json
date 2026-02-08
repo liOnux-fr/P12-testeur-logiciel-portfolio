@@ -1,20 +1,20 @@
 [
     {
-        "image": "image1.png",
-        "title": "Booki",
-        "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-        "link": "#"
+        "image": "ecoblissbath.png",
+        "title": "Eco bliss bath",
+        "text": "Automatisation de tests fonctionnels pour un site web écoresponsable. Analyse des tests manuels existants et création de scripts avec Cypress (JavaScript). Reporting QA et suivi de la qualité dans le cadre d'une formation externe.",
+        "link": "https://github.com/emiliemalo/Eco-Bliss-Bath-V2"
     },
     {
-        "image": "image2.png",
-        "title": "Mon Vieux grimoire",
-        "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-        "link": "#"
+        "image": "724events.jpg",
+        "title": "724 events",
+        "text": "Campagne de tests fonctionnels et exploratoires sur un site événementiel. Environnement Docker, suivi des bugs sur JIRA et reporting QA.",
+        "link": "https://github.com/emiliemalo/https---github.com-emiliemalo-P5-Campagne-de-test-/tree/main/Menez_une_campagne_de_tests_Malo_Emilie"
     },
     {
-        "image": "image3.png",
-        "title": "Kasa",
-        "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-        "link": "#"
+        "image": "payforge.png",
+        "title": "Payforge",
+        "text": "Pilotage QA et définition de la stratégie de tests pour une application financière Agile. Couverture des exigences, tests par sprint et campagnes de non-régression sur fonctionnalités critiques.",
+        "link": "https://github.com/emiliemalo/P11-Strate-gie-de-test/tree/main"
     }
 ]

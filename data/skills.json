@@ -1,32 +1,47 @@
 [
     {
+        "image": "test.png",
+        "title": "Tests end-to-end",
+        "text": "Automatiser les tests end-to-end pour valider les parcours utilisateurs sur les applications web."
+    },
+    {
+        "image": "test.png",
+        "title": "Postman",
+        "text": "Tester les API REST via des requêtes, des scripts de vérification et des collections automatisées."
+    },
+    {
+        "image": "test.png",
+        "title": "Xray",
+        "text": "Gérer les cas de test dans Jira : conception, exécution, suivi des campagnes et couverture des exigences."
+    },
+    {
         "image": "html-css.jpg",
         "title": "HTML - CSS",
-        "text": "Intégration d’interfaces responsives et accessibles, utilisation de maquettes Figma, développement d’animations CSS"
+        "text": "Intégrer des interfaces web responsives à partir de maquettes, avec animations CSS et accessibilité."
     },
     {
         "image": "js.jpg",
-        "title": "javascript",
-        "text": "Manipulation du DOM, création d’éléments dynamiques, gestion de données de formulaires"
+        "title": "JavaScript",
+        "text": "Créer des interactions dynamiques et manipuler le DOM dans des applications web modernes."
     },
     {
         "image": "react.jpg",
         "title": "React",
-        "text": "Création d’applications React, création de composants et manipulation de leur état"
+        "text": "Développer des composants réutilisables et gérer leur état dans des interfaces réactives."
     },
     {
         "image": "gestion-de-projet.png",
-        "title": "Gestion de projet",
-        "text": "Analyse des besoins d’un client, définition d’une solution technique répondant aux besoins fonctionnelle, planification du projet"
+        "title": "Gestion de projet QA",
+        "text": "Organiser les phases de test, planifier les sprints, et collaborer avec les équipes produit et dev."
     },
     {
         "image": "optimisation-et-debug.png",
-        "title": "Optimisation et debug",
-        "text": "Identification des anomalies et correction d’un site existant, optimisation SEO et performance et publication d’un site en ligne"
+        "title": "Debug & Optimisation",
+        "text": "Identifier les bugs, optimiser le SEO, améliorer les performances et publier les livrables web."
     },
     {
         "image": "test.png",
-        "title": "Test",
-        "title ": "Tests exploratoires, unitaires et d’intégration, définition d’une stratégie de test et d’un rédaction d’un cahier de recette, automatisation de tests E2E et d’API"
+        "title": "Stratégies de test",
+        "text": "Concevoir et exécuter des tests fonctionnels, exploratoires, API, unitaires, et de non-régression."
     }
 ]

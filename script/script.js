@@ -23,6 +23,23 @@ function handleNavbarCollapse() {
     });
 }
 
+// Function to get Font Awesome icon for each skill
+function getSkillIcon(title) {
+    const icons = {
+        "Tests end-to-end": '<i class="fa-solid fa-vial skill-icon"></i>',
+        "Cypress": '<i class="fa-solid fa-vial skill-icon"></i>',
+        "Postman": '<i class="fa-solid fa-rocket skill-icon"></i>',
+        "Xray": '<i class="fa-solid fa-list-check skill-icon"></i>',
+        "HTML - CSS": '<i class="fa-brands fa-html5 skill-icon"></i>',
+        "JavaScript": '<i class="fa-brands fa-js skill-icon"></i>',
+        "React": '<i class="fa-brands fa-react skill-icon"></i>',
+        "Gestion de projet QA": '<i class="fa-solid fa-clipboard-list skill-icon"></i>',
+        "Debug & Optimisation": '<i class="fa-solid fa-bug skill-icon"></i>',
+        "Stratégies de test": '<i class="fa-solid fa-flask skill-icon"></i>'
+    };
+    return icons[title] || '<i class="fa-solid fa-code skill-icon"></i>';
+}
+
 // Function to dynamically create HTML elements from the JSON file
 function createSkillsFromJSON() {
     const container = document.querySelector("#skills .container");
@@ -37,11 +54,14 @@ function createSkillsFromJSON() {
             data.forEach((item, index) => {
                 const card = document.createElement("div");
                 card.classList.add("col-lg-4", "mt-4");
+                const icon = getSkillIcon(item.title);
                 card.innerHTML = `
                     <div class="card skillsText">
                         <div class="card-body">
-                            <img src="./images/${item.image}" />
-                            <h4 class="card-title mt-3">${item.title}</h4>
+                            <div class="skill-icon-container">
+                                ${icon}
+                            </div>
+                            <h3 class="card-title mt-3">${item.title}</h3>
                             <p class="card-text mt-3">${item.text}</p>
                         </div>
                     </div>
@@ -75,19 +95,20 @@ function createPortfolioFromJSON() {
                 card.classList.add("col-lg-4", "mt-4");
                 card.innerHTML = `
                     <div class="card portfolioContent">
-                    <img class="card-img-top" src="images/${item.image}" style="width:100%">
+                    <img class="card-img-top" src="images/${item.image}" alt="${item.title} - ${item.text.substring(0, 100)}" style="width:100%">
                     <div class="card-body">
-                        <h4 class="card-title">${item.title}</h4>
+                        <h3 class="card-title">${item.title}</h3>
                         <p class="card-text">${item.text}</p>
                         <div class="text-center">
-                            <a href="${item.link}" class="btn btn-success">Lien</a>
+                            <a href="${item.link}" class="btn btn-success" aria-label="Voir le projet ${item.title}" target="_blank" rel="noopener noreferrer">Voir le projet</a>
                         </div>
                     </div>
                 </div>
                 `;
 
                 // Append the card to the current row
-                row.apendChild(card);
+                // CORRECTION ERREUR DE FRAPPE APENCHILD
+                row.appendChild(card);
 
                 // If the index is a multiple of 3 or it's the last element, create a new row
                 if ((index + 1) % 3 === 0 || index === data.length - 1) {
@@ -99,8 +120,31 @@ function createPortfolioFromJSON() {
         });
 }
 
+// Function to handle language switching
+function handleLanguageSwitch() {
+    const langButtons = document.querySelectorAll('.lang-btn');
+
+    langButtons.forEach(button => {
+        button.addEventListener('click', function () {
+            const lang = this.getAttribute('data-lang');
+
+            // Remove active class from all buttons
+            langButtons.forEach(btn => btn.classList.remove('active'));
+
+            // Add active class to clicked button
+            this.classList.add('active');
+
+            // Translate the page
+            if (typeof translatePage === 'function') {
+                translatePage(lang);
+            }
+        });
+    });
+}
+
 // Call the functions to execute the code
 handleNavbarScroll();
 handleNavbarCollapse();
 createSkillsFromJSON();
 createPortfolioFromJSON();
+handleLanguageSwitch();
