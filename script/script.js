@@ -49,7 +49,7 @@ handleNavbarCollapse();
 createCardsFromJSON("data/skills.json", "#skills .container", (item) => `
     <div class="card skillsText">
         <div class="card-body">
-            <img src="../images/${item.image}" alt="${item.title}"/>
+            <img src="images/${item.image}" alt="${item.title}"/>
             <h3 class="card-title mt-3">${item.title}</h3>
             <p class="card-text mt-3">${item.text}</p>
         </div>
@@ -59,7 +59,7 @@ createCardsFromJSON("data/skills.json", "#skills .container", (item) => `
 // Call function portfolio
 createCardsFromJSON("data/portfolio.json", "#portfolio .container", (item) => `
     <div class="card portfolioContent">
-        <img class="card-img-top" src="../images/${item.image}" alt="${item.title}" style="width:100%">
+        <img class="card-img-top" src="images/${item.image}" alt="${item.title}" style="width:100%">
         <div class="card-body">
             <h3 class="card-title">${item.title}</h3>
             <p class="card-text">${item.text}</p>
