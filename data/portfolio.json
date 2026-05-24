@@ -1,20 +1,14 @@
 [
     {
-        "image": "image1.png",
-        "title": "Booki",
-        "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-        "link": "#"
-    },
-    {
-        "image": "image2.png",
-        "title": "Mon Vieux grimoire",
-        "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-        "link": "#"
-    },
-    {
-        "image": "image3.png",
+        "image": "kasa.webp",
         "title": "Kasa",
-        "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-        "link": "#"
+        "text": "<strong>Location de logement sous haute surveillance :</strong> Sur cette application de location de logement, j'ai propulsé l'architecture Front-End à coup de React et verrouillé la navigation avec React Router. Ma véritable obsession ? Ne laisser aucune chance aux anomalies. J'ai déployé l'artillerie lourde (Vitest et Jest) pour draper le code de tests unitaires impitoyables. Résultat : un taux de couverture supérieur à 80% sur chaque composant. Les bugs n'ont même pas essayé d'entrer.",
+        "link": "https://github.com/liOnux-fr/P8_TesteurLogiciel_appli_location_immobiliere_React"
+    },
+    {
+        "image": "ecoBlissBath.webp",
+        "title": "Eco Bliss Bath",
+        "text": "<strong>Mission d'exorcisme sur Cypress :</strong> Armé de JavaScript et Cypress, j'ai déployé des smoke tests, blindé les scénarios fonctionnels et passé l'API au scanner. En bonus, j'ai joué au hacker en testant la vulnérabilité de l'espace commentaires aux failles XSS. Les devs ont continué à pousser du code en parallèle ? Tant mieux. Mon radar a intercepté plusieurs anomalies qu'aucun script n'avait vues venir. J'ai tout consigné dans un bilan de campagne pour un nettoyage chirurgical.",
+        "link": "https://github.com/liOnux-fr/P10-Eco-Bliss-Bath-V2"
     }
 ]
