@@ -15,7 +15,7 @@ Correction du skills.json :
 
 - Ajout d'une Meta description
 
-- Remplacement des titres <h4> en <h3>
+- Remplacement des titres ```<h4>``` en ```<h3>```
 
 - Amélioration du contraste
 
