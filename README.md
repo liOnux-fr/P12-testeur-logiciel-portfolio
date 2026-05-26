@@ -1,33 +1,35 @@
 # P12-testeur-logiciel-portfolio
 
-OUTILS : W3C validor, CSS validor, Lighthouse, WAVE WebAIM
+# Outils
+W3C validor, CSS validor, Lighthouse et WAVE WebAIM
 
+# Fichiers json
+Correction du skills.json :
+```
+"text": "Tests exploratoires ... au lieu de "title"
+```
+# Fichier HTML - CSS
+- Ajout "alt" pour les img
 
-Correction du skills.json : "text": "Tests exploratoires ... au lieu de "title" ...
+- Ajout ARIA labels
 
+- Ajout d'une Meta description
 
-Ajout "alt" pour les img
+- Remplacement des titres <h4> en <h3>
 
-Ajout ARIA label
+- Amélioration du contraste
 
-Meta description
+- Supression du doublon de person
 
-h4 en h3
+- Optimisation des images (webp)
 
-Amélioration du contraste
+- Importation de font-awesome
 
-Supression du doublon de person
+- Correction des div non fermées
 
-Optimisation des images (webp)
+# Fichier JS
+- Correction des chemins d'images
 
-Importation de font-awesome
+- Dé-duplication de code
 
-Vérification par W3C (div non fermées, ...)
-
-
-Correction des chemins d'images
-
-Dé-duplication de code
-
-Correction aPendchild
-
+- Correction ```apendChild``` en ```appendChild```
