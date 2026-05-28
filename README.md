@@ -1,14 +1,13 @@
 # P12-testeur-logiciel-portfolio
 
-# Outils
+# Outils de vérification :
 W3C validor, CSS validor, Lighthouse et WAVE WebAIM
 
-# Fichiers json
-Correction du skills.json :
+# Fichier skills.json :
 ```
 "text": "Tests exploratoires ... au lieu de "title"
 ```
-# Fichier HTML - CSS
+# Fichier HTML - CSS :
 - Ajout "alt" pour les img
 
 - Ajout ARIA labels
@@ -27,7 +26,7 @@ Correction du skills.json :
 
 - Correction des div non fermées
 
-# Fichier JS
+# Fichier JS :
 - Correction des chemins d'images
 
 - Dé-duplication de code
