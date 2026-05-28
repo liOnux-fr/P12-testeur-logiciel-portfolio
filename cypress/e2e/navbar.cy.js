@@ -9,6 +9,6 @@ describe("Mobile navbar collapse", () => {
 		// et que la classe "show" ait disparu (menu fermé)
 		cy.get('#navbarSupportedContent').should('not.have.class', 'collapsing') // Fin de l'animation
 		  .and('not.have.class', 'show') // Menu fermé
-		  .and('not.be.visible');
+		  .and('not.be.visible'); // Masqué
 	});
 });
